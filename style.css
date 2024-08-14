@@ -1,0 +1,79 @@
+.body{
+    height: 100vh;
+    width: 100%;
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined{
+    color: red;
+}
+
+.loginpage{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 35px;
+    background-color: rgb(169, 169, 169);
+}
+
+.loginpage h2{
+    font-size: 24px;
+    color:black;
+    margin-bottom: 24px;
+}
+.text-input{
+    margin-bottom: 18px;
+    text-align:left ;
+}
+
+.text-input label{
+    display: block;
+    margin-bottom: 7px;
+}
+
+.text-input input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button{
+    width: 80%;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: red;
+
+}
+ button:hover{
+    background-color: aquamarine;
+ }
+
+ .loginpage p{
+    margin-top: 10px;
+    color: rgb(18, 18, 27);
+ }
+
+ .loginpage p a{
+    text-decoration: none;
+    padding-left: 5px;
+ }
+ .loginpage p a:hover{    
+    text-decoration: underline;
+ }
+
